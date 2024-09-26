@@ -1,10 +1,11 @@
-def countSum(list_of_numbers):
-  sum = 0
-  for num in list_of_numbers:
-    sum += num
-  return sum
-
-n = int(input())
-listN = [int(x) for x in str(n)]
-sum = countSum(listN)
-print(f"Сумма цифр {n} числа равна {sum}")
+n = input() 
+first_num = int(n[0])
+second_num =  int(n[1])
+third_num =  int(n[2])
+fourth_num =  int(n[3])
+fifth_num =  int(n[4])
+sixth_num =  int(n[5])
+seventh_num =  int(n[6])
+eighth_num = int(n[7])
+sum = first_num + second_num + third_num + fourth_num + fifth_num + sixth_num + seventh_num + eighth_num
+print(f"Сумма всех цифр числа {n} равна {sum}")
